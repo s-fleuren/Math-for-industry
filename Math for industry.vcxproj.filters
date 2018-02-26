@@ -13,11 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="binaryImg.txt">
-      <Filter>Source Files</Filter>
-    </Text>
+    <Filter Include="Source Files\BinaryImages">
+      <UniqueIdentifier>{74a5d03f-bc79-4011-9330-e8d741bccc69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="buildAndRun.sh">
@@ -37,7 +35,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="example_advanced_3Dindexing.c">
+    <Text Include="binaryImg_x48_y48_z44_obj3.txt">
+      <Filter>Source Files\BinaryImages</Filter>
+    </Text>
+    <Text Include="binaryImg_x384_y384_z30_obj96.txt">
+      <Filter>Source Files\BinaryImages</Filter>
+    </Text>
+    <Text Include="binaryImg_x384_y384_z30_obj713.txt">
+      <Filter>Source Files\BinaryImages</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Parallel_Labeling.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

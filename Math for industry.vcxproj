@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="binaryImg.txt" />
+    <Text Include="binaryImg_x384_y384_z30_obj713.txt" />
+    <Text Include="binaryImg_x384_y384_z30_obj96.txt" />
+    <Text Include="binaryImg_x48_y48_z44_obj3.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="buildAndRun.sh" />
@@ -29,7 +31,7 @@
     <None Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="example_advanced_3Dindexing.c" />
+    <ClCompile Include="Parallel_Labeling.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -98,6 +100,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions); _CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
